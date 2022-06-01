@@ -69,5 +69,11 @@ body{
 }
 
 .butn1:hover{
-opacity: 75%;
+    opacity: 75%;
+}
+
+.ph{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-size: 38px; 
 }
