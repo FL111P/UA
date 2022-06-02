@@ -104,11 +104,11 @@ body{
 }
 
 article img{
-    width: 85%;
+    width: 70%;
 }
 
 #desktop:checked ~ #slider{
-    max-width: 850px;
+    max-width: 1200px;
 }
 
 #switch1:checked ~ #controls label:nth-child(5),
@@ -118,7 +118,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(4){
     background: url('left.png') no-repeat;
     float: left;
-    margin: 0 0 0 -50px;
+    margin: 0 -15 0 0;
     display: block;
     height: 68px;
     width: 68px;
@@ -131,7 +131,7 @@ article img{
 #switch5:checked ~ #controls label:nth-child(1){
     background: url('right.png') no-repeat;
     float: right;
-    margin: 0 -50px 0 0;
+    margin: 0 0 0 0;
     display: block;
     height: 68px;
     width: 68px;
@@ -209,3 +209,6 @@ label, a{
 #controls label{
     transition: opacity 0.2s ease-out;
 }
+
+.img {transition:width 0.5s; }
+.img:hover{width: 90%; margin: 0; padding: 0;}
